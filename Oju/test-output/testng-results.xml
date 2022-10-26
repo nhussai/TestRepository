@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-11T19:17:47 EDT" name="Default suite" finished-at="2022-10-11T19:17:53 EDT" duration-ms="5908">
+    <groups>
+    </groups>
+    <test started-at="2022-10-11T19:17:47 EDT" name="Default test" finished-at="2022-10-11T19:17:53 EDT" duration-ms="5908">
+      <class name="com.qa.pages.testCases.TestBanking">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.qa.pages.testCases.TestBanking@593aaf41]" started-at="2022-10-11T19:17:46 EDT" name="setupSuite" finished-at="2022-10-11T19:17:47 EDT" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.pages.testCases.TestBanking@593aaf41]" started-at="2022-10-11T19:17:47 EDT" name="setUp" finished-at="2022-10-11T19:17:50 EDT" duration-ms="2988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openBankSite()[pri:0, instance:com.qa.pages.testCases.TestBanking@593aaf41]" started-at="2022-10-11T19:17:50 EDT" name="openBankSite" finished-at="2022-10-11T19:17:51 EDT" duration-ms="1086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBankSite -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.qa.pages.testCases.TestBanking@593aaf41]" started-at="2022-10-11T19:17:51 EDT" name="tearDownMethod" finished-at="2022-10-11T19:17:52 EDT" duration-ms="319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openBankSite status=SUCCESS method=TestBanking.openBankSite()[pri:0, instance:com.qa.pages.testCases.TestBanking@593aaf41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.pages.testCases.TestBanking@593aaf41]" started-at="2022-10-11T19:17:52 EDT" name="tearDown" finished-at="2022-10-11T19:17:53 EDT" duration-ms="1467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.pages.testCases.TestBanking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
