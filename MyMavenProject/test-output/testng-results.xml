@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and test is about to start]]>
+    </line>
+    <line>
+      <![CDATA[Setting up complete. Test may start.]]>
+    </line>
+    <line>
+      <![CDATA[About to open the browser]]>
+    </line>
+    <line>
+      <![CDATA[The browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[About capture test result ]]>
+    </line>
+    <line>
+      <![CDATA[Test result is captured]]>
+    </line>
+    <line>
+      <![CDATA[Url is closed]]>
+    </line>
+    <line>
+      <![CDATA[Report is generated]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-04-10T15:28:01 EDT" name="Default suite" finished-at="2022-04-10T15:28:10 EDT" duration-ms="9601">
+    <groups>
+    </groups>
+    <test started-at="2022-04-10T15:28:01 EDT" name="Default test" finished-at="2022-04-10T15:28:10 EDT" duration-ms="9601">
+      <class name="com.store.testcases.LoginTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.store.testcases.LoginTest@7bba5817]" started-at="2022-04-10T15:28:00 EDT" name="setupSuite" finished-at="2022-04-10T15:28:01 EDT" duration-ms="806" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and test is about to start]]>
+            </line>
+            <line>
+              <![CDATA[Setting up complete. Test may start.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.store.testcases.LoginTest@7bba5817]" started-at="2022-04-10T15:28:01 EDT" name="setUP" finished-at="2022-04-10T15:28:06 EDT" duration-ms="5173" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[About to open the browser]]>
+            </line>
+            <line>
+              <![CDATA[The browser is launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="testLogin()[pri:0, instance:com.store.testcases.LoginTest@7bba5817]" started-at="2022-04-10T15:28:06 EDT" name="testLogin" finished-at="2022-04-10T15:28:08 EDT" duration-ms="2166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.store.testcases.LoginTest@7bba5817]" started-at="2022-04-10T15:28:08 EDT" name="tearDownMethod" finished-at="2022-04-10T15:28:10 EDT" duration-ms="1517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=LoginTest.testLogin()[pri:0, instance:com.store.testcases.LoginTest@7bba5817] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[About capture test result ]]>
+            </line>
+            <line>
+              <![CDATA[Test result is captured]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.store.testcases.LoginTest@7bba5817]" started-at="2022-04-10T15:28:10 EDT" name="tearDown" finished-at="2022-04-10T15:28:10 EDT" duration-ms="95" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Url is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.store.testcases.LoginTest@7bba5817]" started-at="2022-04-10T15:28:10 EDT" name="endTest" finished-at="2022-04-10T15:28:10 EDT" duration-ms="606" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Report is generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.store.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
